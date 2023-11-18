@@ -1,0 +1,145 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>soporteprueba</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>XHdw6k5eoqEYrK/IJnELZhS0TnY=15/11/2023 0:54:2814/11/2023 16:03:47</TimeStamp>
+        <ID>
+          <String>Hotel Realta DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>nVWMCiiTC8wbpAcA6Ve0nbUcYzQ=16/11/2023 19:55:5516/11/2023 19:36:48</TimeStamp>
+        <ID>
+          <String>Hotel Realta E</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>aPsic/PkBX9LyHabyhYRL2szCjs=14/11/2023 23:54:2814/11/2023 16:04:10</TimeStamp>
+        <ID>
+          <String>Hotel Realta DM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>u8cNjRwFCjHr3MtHHOsSNaQOxvw=14/11/2023 16:08:5214/11/2023 16:08:39</TimeStamp>
+        <ID>
+          <String>Hotel Realta DM 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>JwWgHEalR65OR/StdYZVY1i2dIM=17/11/2023 22:54:0517/11/2023 19:06:29</TimeStamp>
+        <ID>
+          <String>Hotel Realta E</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>W9KvMbh9v0wsqZylD1yCMmyQeHg=14/11/2023 16:04:3614/11/2023 16:04:36</TimeStamp>
+        <ID>
+          <String>Dimproducto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uA9rOT+SwVwIPta5+PCORaEozD4=14/11/2023 16:04:3614/11/2023 16:04:36</TimeStamp>
+        <ID>
+          <String>Dimtiempo C</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C4nP47pJvAYuMLEida9F3u6O3ag=14/11/2023 16:04:3614/11/2023 16:04:36</TimeStamp>
+        <ID>
+          <String>Dimproveedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F2o9829okly3PeMZgVz+Zc+f1YA=14/11/2023 16:10:3314/11/2023 16:09:09</TimeStamp>
+        <ID>
+          <String>Hotel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>43zacUVtRAqNTJeutCYAGCPxb50=14/11/2023 16:10:3314/11/2023 16:09:09</TimeStamp>
+        <ID>
+          <String>Dim Tiempo R</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>D6JCU53dW6Z/Q9sh5SLgh+gRk4g=14/11/2023 16:10:3314/11/2023 16:09:09</TimeStamp>
+        <ID>
+          <String>Dim Users R</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>T/N950vQnoU1uS2LZvb+nq75Onw=17/11/2023 16:10:5316/11/2023 19:38:18</TimeStamp>
+        <ID>
+          <String>Td</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jJcR/MMyodqZT0zlXxAJoTL+uBU=17/11/2023 19:15:1017/11/2023 19:09:48</TimeStamp>
+        <ID>
+          <String>Thu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ofFRl6310o2F3sYSiQreKrMj3l4=17/11/2023 23:46:5214/11/2023 16:04:36GUo4G/NepJJI55UYIdxFxMY+duU=14/11/2023 16:04:3614/11/2023 16:04:36</TimeStamp>
+        <ID>
+          <String>Hotel Realta DM c</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>bDSAnjlvBqTVOYyaZDKWEJaV7rU=14/11/2023 21:28:0014/11/2023 16:09:09Tx51iUuO9Pbwibcr+COiVHda2FQ=14/11/2023 16:09:0914/11/2023 16:09:09</TimeStamp>
+        <ID>
+          <String>Hotel Realta DM R</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>lyI4pUvyCnelUfH7jsjkhjwDGM8=17/11/2023 23:46:5517/11/2023 22:54:19OU/J9YURY4KVPCV5w9hCYjDD56s=17/11/2023 22:54:1917/11/2023 22:54:19</TimeStamp>
+        <ID>
+          <String>Hotel Realta E</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>eTlFQFdsVXFSI9eQRoH5ZzkhZWw=12/11/2023 14:10:4012/11/2023 14:10:40</TimeStamp>
+      <ID>
+        <String>soporteprueba</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-11-18T03:46:58.003333Z</LastDeployed>
+</DeploymentSnapshot>

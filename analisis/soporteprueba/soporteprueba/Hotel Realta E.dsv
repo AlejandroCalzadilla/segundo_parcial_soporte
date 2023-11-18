@@ -1,0 +1,146 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5f10acab-c622-407f-93a3-b7353708753f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hotel Realta E</ID>
+  <Name>Hotel Realta E</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Hotel Realta E</DataSourceID>
+  <Schema>
+    <xs:schema id="Hotel_x0020_Realta_x0020_E" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Hotel_x0020_Realta_x0020_E" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="77a64fd2-f65a-4495-b44c-b357c075acd4">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_td" msprop:DbTableName="td" msprop:FriendlyName="td" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="f523b3ca-12d2-4fce-89cf-ebd1276917f9">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="numero_habitacion" msprop:FriendlyName="numero_habitacion" msprop:DbColumnName="numero_habitacion" msprop:design-time-name="d592db6f-dd88-418f-86ec-48eab40ababf" type="xs:int" />
+                  <xs:element name="nombre_hotel" msprop:FriendlyName="nombre_hotel" msprop:DbColumnName="nombre_hotel" msprop:design-time-name="7e4dfcf8-1831-4100-8185-301b14dfe9f1" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombre_area" msprop:FriendlyName="nombre_area" msprop:DbColumnName="nombre_area" msprop:design-time-name="3ae885d7-320e-480a-ae20-8e4d3bea2146" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="125" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tipo_habitacion" msprop:FriendlyName="tipo_habitacion" msprop:DbColumnName="tipo_habitacion" msprop:design-time-name="444e7b33-9fa0-4d2c-8a32-af7e64eef398" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="125" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_thu" msprop:DbTableName="thu" msprop:FriendlyName="thu" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="0f02cb21-1829-42f8-818e-ce624fe4430b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="nombre" msprop:FriendlyName="nombre" msprop:DbColumnName="nombre" msprop:design-time-name="f5073759-f855-4168-9683-652b6fb526dd">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="edad" msprop:FriendlyName="edad" msprop:DbColumnName="edad" msprop:design-time-name="cefd575d-524b-4c52-8bbc-e71009e32ddd" type="xs:int" />
+                  <xs:element name="genero" msprop:FriendlyName="genero" msprop:DbColumnName="genero" msprop:design-time-name="0589c56f-e4e5-40cb-84a5-9911b84fb051" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_th" msprop:DbTableName="th" msprop:FriendlyName="th" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="38f4ded9-8133-422b-98b9-155d7049527a">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="id" msprop:DbColumnName="id" msprop:design-time-name="4f7648b6-4ae1-433c-8b45-794f97567ff0" type="xs:int" />
+                  <xs:element name="total_dias" msprop:FriendlyName="total_dias" msprop:DbColumnName="total_dias" msprop:design-time-name="ed3dc1fd-e318-4013-bd30-bff594520609" type="xs:int" minOccurs="0" />
+                  <xs:element name="numero_habitacion" msprop:FriendlyName="numero_habitacion" msprop:DbColumnName="numero_habitacion" msprop:design-time-name="708e6bbd-86a5-41b6-8312-d2cec4b29b8c" type="xs:int" />
+                  <xs:element name="nombre" msprop:FriendlyName="nombre" msprop:DbColumnName="nombre" msprop:design-time-name="8b41838f-6f21-4212-8b9d-aac91c94e26f">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cantidad_dias_ocupados" msprop:FriendlyName="cantidad_dias_ocupados" msprop:DbColumnName="cantidad_dias_ocupados" msprop:design-time-name="b3280c49-0504-4825-96fb-b8a1447435e3" type="xs:int" minOccurs="0" />
+                  <xs:element name="costo" msprop:FriendlyName="costo" msprop:DbColumnName="costo" msprop:design-time-name="f00a4173-1598-4996-b839-7d8c9fc12952" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ingresos" msprop:FriendlyName="ingresos" msprop:DbColumnName="ingresos" msprop:design-time-name="cf4ea972-9099-4a34-addb-7a82dd48c0b0" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_td" />
+          <xs:field xpath="numero_habitacion" />
+        </xs:unique>
+        <xs:unique name="dbo_thu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_thu" />
+          <xs:field xpath="nombre" />
+        </xs:unique>
+        <xs:unique name="dbo_th_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_th" />
+          <xs:field xpath="id" />
+          <xs:field xpath="numero_habitacion" />
+          <xs:field xpath="nombre" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="th-td" msdata:parent="dbo_td" msdata:child="dbo_th" msdata:parentkey="numero_habitacion" msdata:childkey="numero_habitacion" />
+          <msdata:Relationship name="th-thu" msdata:parent="dbo_thu" msdata:child="dbo_th" msdata:parentkey="nombre" msdata:childkey="nombre" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Hotel_x0020_Realta_x0020_E xmlns="" />
+  </Schema>
+</DataSourceView>
